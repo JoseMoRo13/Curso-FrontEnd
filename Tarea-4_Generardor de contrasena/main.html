@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Refresh" content="X;url=http://w3.org/">
+    <title>Generador de contrsenas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/Tarea-4_Generardor de contrasena/styles.css">
+</head>
+<body>
+    <div class="box-generator">
+        <h1>Generador de contraseñas</h1>
+        <input type="text" id="input_password" disabled>
+
+        <h3>Longitud</h3>
+        <div class="password_lenght">
+            <div class="box-range">
+                <span>4</span>
+                <input type="range" id="range-selector" min="4" max="34" value="15">
+                <span>34</span>
+            </div>
+            <input type="number" id="number-selector" min="4" max="34" value="15">
+        </div>
+
+        <h3>Opciones</h3>
+
+        <div class="settings-box">
+            <div class="setting-option">
+                <p>Incluir Mayúsculas</p>
+                <div class="switch-button">
+                    <input type="checkbox" id="uppercase">
+                    <label for="uppercase" class="button-label"></label>
+                </div>
+            </div>
+            <div class="setting-option">
+                <p>Incluir Minúsculas</p>
+                <div class="switch-button">
+                    <input type="checkbox" id="lowercase">
+                    <label for="lowercase" class="button-label"></label>
+                </div>
+            </div>
+            <div class="setting-option">
+                <p>Incluir Números</p>
+                <div class="switch-button">
+                    <input type="checkbox" id="numbers">
+                    <label for="numbers" class="button-label"></label>
+                </div>
+            </div>
+            <div class="setting-option">
+                <p>Incluir Símbolos</p>
+                <div class="switch-button">
+                    <input type="checkbox" id="symbols">
+                    <label for="symbols" class="button-label"></label>
+                </div>
+            </div>
+        </div>
+        <button id="btn-generate">GENERAR CONTRSENA</button>
+    </div>
+    
+    <script src="/Tarea-4_Generardor de contrasena/scripts.js"></script>
+</body>
+</html>
