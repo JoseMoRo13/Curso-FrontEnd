@@ -111,4 +111,4 @@ window.addEventListener("load",function(){
 
     //El mousemoveevento se activa en un elemento cuando se mueve un dispositivo señalador (generalmente un mouse) mientras el punto de acceso del cursor está dentro de él.
 
-    //El blur()método realiza una solicitud para poner una ventana en segundo plano.
+    //El blur()método realiza una solicitud para poner una ventana en segundo plano ok.
